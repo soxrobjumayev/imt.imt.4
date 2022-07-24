@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    border: 0;
+    outline: none;
+    text-decoration: none;
+}
+body{
+    height: 100vh;
+    overflow: hidden;
+    background-color: rgba(158, 73, 73, 0.471);
+}
+main{
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 32px;
+}
+.columns{
+    height: 100%;
+    overflow: auto;
+    padding: 16px;
+}
+.card{
+    border: 1px solid rgb(172, 46, 46);
+    padding: 16px;
+    margin-bottom: 16px;
+    box-shadow: 7px 7px 10px ;
+}
+.card:hover{
+    background: rgba(125, 55, 55, 0.482);
+    cursor: pointer;
+    
+}
+.card .id{
+    /* margin-left: 190px; */
+    font-size: 24px;
+    border: 2px solid red;
+    width: 50px;
+    margin: auto;
+    text-align: center;
+    box-shadow: 5px 5px 15px ;
+
+    
+}
+.card .name{
+
+}
+.card .username{
+
+}
+.card .email{
+
+}
+.card .address{
+
+}
+.card .street{
+
+}
+.card .suite{
+
+}
+.card .city{
+
+}
+.card .zipcode{
+
+}
+.card .geo{
+   margin-left: 200px;
+   
+
+}
+.card .phone{
+
+}
+.card .website{
+    margin-left: 200px;
+}
+.card .company{
+
+}
+.card .name{
+
+}
+.card .catchPhrase{
+
+}
+.card .bs{
+
+}
+
+.title{
+    font-weight: 700;
+    align-items: center;
+    padding-bottom: 10px;
+}
+.name{
+    align-items: center;
+    font-weight: 700;
+    padding-bottom: 10px; 
+}
+
+.email{
+  margin: 5px;
+}
